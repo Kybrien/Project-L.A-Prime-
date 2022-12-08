@@ -1,0 +1,50 @@
+.logo {
+  @include verticalCenter;
+  margin: 10px auto;
+  width: 350px;
+  border-radius: 15px;
+  padding: 5px 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.307);
+  background: url(../../assets/img/laprime.png) center/cover;
+
+  img {
+    height: 40px;
+  }
+  h3 {
+    margin-left: 10px;
+    color: $color-1;
+  }
+}
+
+.moviecss {
+  p {
+
+    text-align: center;
+  }
+
+
+  h3 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.titrepage {
+  h1 {
+    text-align: center;
+  }
+}
+
+.moviii {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
